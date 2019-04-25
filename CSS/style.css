@@ -1,0 +1,36 @@
+/*************
+**  LEARNING FLEXBOX
+**  JAKUB K.
+**************/
+
+body{
+    background: rgb(209, 181, 181);
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+    background: white;
+}
+
+.box{
+    height: 100px;
+    min-width: 100px;
+}
+
+.one{
+    background: red;
+}
+
+.two{
+    background: blue;
+}
+
+.three{
+    background:green;
+}
